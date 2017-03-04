@@ -1,6 +1,11 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
+# Ionic stuff
+www/build/
+www/build/main.js
+www/build/main.js.map
+
 *~
 *.sw[mnpcod]
 *.log
@@ -26,7 +31,6 @@ platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
-www/
 $RECYCLE.BIN/
 
 .DS_Store
